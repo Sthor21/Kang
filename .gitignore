@@ -12,7 +12,112 @@
 /build
 
 # misc
+.DS_Stor# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# React build output
+build/
+dist/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Express backend
+backend/node_modules/
+backend/dist/
+backend/build/
+
+# Java processing component
+./backend/java/target/
+./backend/java/out/
+./backend/java/*.class
+./backend/java/.classpath
+./backend/java/.project
+./backend/java/.settings/
+./backend/java/bin/
+
+# IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Mac files
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Backup files
+*.bak
+*.gho
+*.ori
+*.orig
+*.tmp
+
+# Frontend build artifacts
+.next
+.nuxt
+.cache
+
+# React specific
+.react-app
+react-app-env.d.ts
+
+# Testing
+coverage/
+*.lcov
+
+# Temporary files
+tmp/
+temp/
 .env.local
 .env.development.local
 .env.test.local
@@ -21,3 +126,12 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Explicitly declare text files we want to always be converted to LF
+*.js text eol=lf
+*.json text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.txt text eol=lf

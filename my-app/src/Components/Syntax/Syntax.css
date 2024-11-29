@@ -1,0 +1,35 @@
+.root{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+h1 {
+    text-align: center;
+    color: #4CAF50;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+h2 {
+    color:white;
+}
+pre {
+    background-color: #e9ecef;
+    padding: 2px;
+    border-radius: 5px;
+    overflow-x: auto;
+    font-family: monospace;
+    color: #333;
+}
+.section {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #4CAF50;
+}
+.syntax {
+    background-color: #dbe5e9;
+    border-left: 4px solid #4CAF50;
+    padding: 1px;
+    font-size: 15px;
+    margin: 10px;
+    font-weight: 700;
+}

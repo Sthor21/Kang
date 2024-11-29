@@ -1,0 +1,63 @@
+.textArea{
+    background-color: black;
+    flex: 1;
+    height: 100vh;
+    margin-right: 850px;
+}
+.codeArea{
+    background-color:black;
+    flex: 1;
+    height: 85vh;
+    border-radius: 20px;
+    margin: 10px;
+    position: fixed;
+    top: 70px;
+    right: 0px;
+    left: 700px;
+    padding-bottom: 10px;
+    bottom: -70px;
+    display: flex;
+    flex-direction: column;
+}
+.editor{
+    flex: 1;
+    background-color: black;
+    resize: none;
+    color: white;
+    margin-right: 2px;
+}
+textarea{
+    padding: 15px;
+}
+textarea:focus {
+    outline: none;
+}
+.run-button{
+    margin: 5px;
+    margin-left: 0px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px;
+    font-weight: 600;
+    width: 100px;
+}
+.run-button:hover{
+    background-color: white;
+    color: #4CAF50;
+}
+.output{
+    flex:1;
+    background-color: #272829;
+    color: white;
+    padding: 10px;
+    
+}
+.hero{
+    display: flex;
+    background-color: black;
+    margin-top: 50px;
+}
+.output_text{
+    margin: 0px;
+    padding: opx;
+}

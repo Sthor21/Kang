@@ -1,0 +1,4 @@
+shout hi
+shout bye
+vibe x=5
+keep vibing x high 0 {shout yea boy;sub x x 1;shout x}
