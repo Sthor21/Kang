@@ -37,16 +37,22 @@ an integrated code editor, and real-time error/output feedback. This project is 
    ```bash
    npm install
 3.Navigate to the backend directory and install its dependencies:
+  ```bash
   cd backend
   npm install
+  ```
 4. Running the Application
    Frontend
      Start the React development server:
+     ```bash
      cd my-app
      npm run build
+     ```
    Backend
+     ```bash
      cd backend
      npm start
+     ```
 5.**The application will be available at http://localhost:3000.**
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -73,9 +79,9 @@ We welcome contributions! Please follow these steps:
 
   Fork the repository.
   Create a new branch for your feature/bug fix:
-  bash
-  Copy code
+  ```bash
   git checkout -b feature-name
+  ```
   Commit your changes and push to your fork.
   Submit a pull request with a detailed description.
 
